@@ -1,0 +1,16 @@
+{
+  "B2290": "Czujnik zderzeniowy – błąd obwodu",
+  "B2292": "Czujnik zderzeniowy – niewłaściwy sygnał",
+
+  "B2295": "Poduszka kierowcy – błąd obwodu",
+  "B2296": "Poduszka pasażera – błąd obwodu",
+
+  "B2298": "Napinacz pasa – błąd obwodu",
+  "B2299": "Napinacz pasa – niewłaściwy sygnał",
+
+  "B2300": "Moduł SRS – błąd wewnętrzny",
+  "B2301": "Moduł SRS – błąd pamięci",
+
+  "B2310": "Czujnik obecności pasażera – błąd",
+  "B2311": "Czujnik obecności – niewłaściwy sygnał"
+}

@@ -1,0 +1,91 @@
+<UserControl x:Class="mazda_5.Views.ModuleDetailView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="White">
+
+    <StackPanel Margin="20">
+
+        <TextBlock x:Name="ModuleTitle"
+                   FontSize="16"
+                   FontWeight="Bold"
+                   Margin="0 0 0 10"/>
+
+        <Button Content="Reset modułu"
+                Height="40"
+                Width="200"
+                Margin="0 0 0 10"
+                Click="ResetModule_Click"/>
+
+        <Button Content="Parametry modułu"
+                Height="40"
+                Width="200"
+                Margin="0 0 0 10"
+                Click="ReadParams_Click"/>
+
+        <Button Content="Test modułu"
+                Height="40"
+                Width="200"
+                Margin="0 0 0 10"
+                Click="SelfTest_Click"/>
+        
+        <Button Content="Test aktywny 1"
+                Height="40"
+                Width="200"
+                Margin="0 0 0 10"
+                Click="ActiveTest1_Click"/>
+
+        <Button Content="Test aktywny 2"
+                Height="40"
+                Width="200"
+                Margin="0 0 0 10"
+                Click="ActiveTest2_Click"/>
+
+        <Button Content="Test aktywny 3"
+                Height="40"
+                Width="200"
+                Margin="0 0 0 10"
+                Click="ActiveTest3_Click"/>
+
+       
+
+        <TextBlock Text="Konfiguracja modułu"
+                   FontSize="20"
+                   
+                   TextAlignment="Center"
+                   Margin="0 20 0 10"/>
+
+        <StackPanel Orientation="Horizontal"
+                    Margin="0 0 0 10">
+            
+            <TextBox x:Name="DidBox"
+             Width="120"
+             Height="30"
+             Margin="0 0 10 0"
+             Text="DID (np. F100)"/>
+
+            <TextBox x:Name="ValueBox"
+             Width="120"
+             Height="30"
+             Margin="0 0 10 0"
+             Text="Wartość (np. 01)"/>
+
+            <Button Content="Zapisz"
+            Width="120"
+            Height="30"
+            Click="WriteConfig_Click"/>
+        </StackPanel>
+
+        <Button Content="Czytaj konfigurację"
+            Height="40"
+            Width="200"
+            Margin="0 0 0 10"
+            Click="ReadConfig_Click"/>
+
+
+
+
+        <TextBlock x:Name="Output"
+            FontSize="16"
+            Margin="0 20 0 0"/>
+    </StackPanel>
+</UserControl>

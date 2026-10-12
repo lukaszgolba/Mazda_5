@@ -1,0 +1,455 @@
+{
+  "P0001": "Regulator objętości paliwa – obwód otwarty",
+  "P0002": "Regulator objętości paliwa – zakres/wydajność",
+  "P0003": "Regulator objętości paliwa – niski sygnał",
+  "P0004": "Regulator objętości paliwa – wysoki sygnał",
+
+  "P0010": "Elektrozawór sterowania fazami rozrządu – obwód (Bank 1)",
+  "P0011": "Zbyt wczesne ustawienie wałka rozrządu (Bank 1)",
+  "P0012": "Zbyt późne ustawienie wałka rozrządu (Bank 1)",
+  "P0013": "Elektrozawór sterowania fazami – obwód (Bank 1)",
+  "P0014": "Zbyt wczesne ustawienie wałka wydechowego (Bank 1)",
+  "P0015": "Zbyt późne ustawienie wałka wydechowego (Bank 1)",
+
+  "P0030": "Sonda lambda – grzałka (Bank 1, Sensor 1) – obwód",
+  "P0031": "Sonda lambda – grzałka (Bank 1, Sensor 1) – niski sygnał",
+  "P0032": "Sonda lambda – grzałka (Bank 1, Sensor 1) – wysoki sygnał",
+
+  "P0100": "Przepływomierz powietrza (MAF) – błąd obwodu",
+  "P0101": "MAF – zakres/wydajność",
+  "P0102": "MAF – niski sygnał",
+  "P0103": "MAF – wysoki sygnał",
+
+  "P0110": "Czujnik temperatury powietrza (IAT) – błąd obwodu",
+  "P0112": "IAT – niski sygnał",
+  "P0113": "IAT – wysoki sygnał",
+
+  "P0115": "Czujnik temperatury cieczy (ECT) – błąd obwodu",
+  "P0117": "ECT – niski sygnał",
+  "P0118": "ECT – wysoki sygnał",
+
+  "P0120": "Czujnik położenia przepustnicy (TPS) – błąd obwodu",
+  "P0122": "TPS – niski sygnał",
+  "P0123": "TPS – wysoki sygnał",
+
+  "P0130": "Sonda lambda (Bank 1, Sensor 1) – błąd obwodu",
+  "P0131": "Sonda lambda – niski sygnał",
+  "P0132": "Sonda lambda – wysoki sygnał",
+  "P0133": "Sonda lambda – wolna odpowiedź",
+  "P0134": "Sonda lambda – brak aktywności",
+
+  "P0170": "Korekta paliwa – błąd",
+  "P0171": "Zbyt uboga mieszanka (Bank 1)",
+  "P0172": "Zbyt bogata mieszanka (Bank 1)",
+
+  "P0200": "Wtryskiwacz – błąd obwodu",
+  "P0201": "Wtryskiwacz – cylinder 1",
+  "P0202": "Wtryskiwacz – cylinder 2",
+  "P0203": "Wtryskiwacz – cylinder 3",
+  "P0204": "Wtryskiwacz – cylinder 4",
+
+  "P0300": "Wypadanie zapłonu (losowe/wielokrotne)",
+  "P0301": "Wypadanie zapłonu – cylinder 1",
+  "P0302": "Wypadanie zapłonu – cylinder 2",
+  "P0303": "Wypadanie zapłonu – cylinder 3",
+  "P0304": "Wypadanie zapłonu – cylinder 4",
+
+  "P0320": "Czujnik położenia wału – błąd obwodu",
+  "P0335": "Czujnik położenia wału – brak sygnału",
+  "P0340": "Czujnik położenia wałka – błąd obwodu",
+
+  "P0400": "Układ EGR – przepływ niewłaściwy",
+  "P0401": "Układ EGR – zbyt mały przepływ",
+  "P0402": "Układ EGR – zbyt duży przepływ",
+
+  "P0420": "Niska wydajność katalizatora (Bank 1)",
+
+  "P0440": "Układ EVAP – błąd",
+  "P0441": "EVAP – niewłaściwy przepływ",
+  "P0442": "EVAP – mały wyciek",
+  "P0455": "EVAP – duży wyciek",
+
+  "P0500": "Czujnik prędkości pojazdu (VSS) – błąd obwodu",
+
+  "P0600": "Błąd komunikacji – magistrala",
+  "P0601": "PCM – błąd pamięci",
+  "P0602": "PCM – błąd programowania",
+  "P0603": "PCM – błąd pamięci podręcznej",
+  "P0605": "PCM – błąd ROM",
+  "P0606": "PCM – błąd procesora",
+
+  "P0700": "Błąd skrzyni biegów – sygnał z TCM",
+  "P0715": "Czujnik prędkości turbiny – błąd obwodu",
+  "P0720": "Czujnik prędkości wyjściowej – błąd obwodu",
+
+  "P1000": "Test OBD-II nie zakończony (Mazda/Ford)",
+  "P1288": "Czujnik temperatury głowicy – wysoki sygnał (Mazda/Ford)",
+  "P1299": "Przegrzanie silnika – tryb awaryjny (Mazda/Ford)",
+
+  
+  "P1300": "Układ zapłonowy – błąd ogólny",
+  "P1301": "Układ zapłonowy – cylinder 1",
+  "P1302": "Układ zapłonowy – cylinder 2",
+  "P1303": "Układ zapłonowy – cylinder 3",
+  "P1304": "Układ zapłonowy – cylinder 4",
+  
+  "P1351": "Cewka zapłonowa – błąd obwodu (Mazda/Ford)",
+  "P1352": "Cewka zapłonowa – niski sygnał",
+  "P1353": "Cewka zapłonowa – wysoki sygnał",
+
+  "P1400": "DPFE – niski sygnał (Mazda/Ford)",
+    "P1401": "DPFE – wysoki sygnał",
+    "P1402": "EGR – błąd obwodu",
+    "P1403": "EGR – niewłaściwy sygnał",
+    "P1405": "EGR – brak przepływu",
+    "P1406": "EGR – zawór zablokowany",
+
+    "P1450": "EVAP – zbyt wysokie podciśnienie",
+    "P1451": "EVAP – błąd obwodu zaworu",
+    "P1452": "EVAP – niewłaściwy przepływ",
+    "P1455": "EVAP – duży wyciek (Mazda/Ford)",
+
+    "P1500": "Czujnik prędkości pojazdu – brak sygnału",
+    "P1501": "Czujnik prędkości pojazdu – niski sygnał",
+    "P1502": "Czujnik prędkości pojazdu – wysoki sygnał",
+
+    "P1518": "Przepustnica – błąd obwodu (Mazda/Ford)",
+    "P1519": "Przepustnica – zablokowana",
+    "P1520": "Przepustnica – niewłaściwa pozycja",
+    "P1521": "Przepustnica – nieprawidłowy sygnał",
+
+    "P1600": "PCM – błąd wewnętrzny",
+    "P1602": "PCM – błąd zasilania",
+    "P1603": "PCM – błąd komunikacji",
+    "P1604": "PCM – błąd sterownika",
+    "P1605": "PCM – błąd procesora",
+    "P1606": "PCM – błąd pamięci",
+    "P1607": "PCM – błąd magistrali CAN",
+
+    "P1684": "PCM – błąd napięcia zasilania",
+    "P1685": "PCM – błąd immobilizera",
+    "P1686": "PCM – brak komunikacji z immobilizerem",
+    "P1687": "PCM – błąd autoryzacji klucza",
+
+    "P1700": "Skrzynia biegów – sygnał TCM",
+    "P1701": "TCM – błąd obwodu",
+    "P1702": "TCM – niski sygnał",
+    "P1703": "TCM – wysoki sygnał",
+
+    "P2004": "Klapki kolektora dolotowego – zablokowane w pozycji otwartej",
+    "P2005": "Klapki kolektora dolotowego – zablokowane w pozycji zamkniętej",
+    "P2006": "Klapki kolektora – niewłaściwa pozycja",
+    "P2007": "Klapki kolektora – brak ruchu",
+
+    "P2100": "Silnik przepustnicy – błąd obwodu",
+    "P2101": "Silnik przepustnicy – zakres/wydajność",
+    "P2102": "Silnik przepustnicy – niski sygnał",
+    "P2103": "Silnik przepustnicy – wysoki sygnał",
+    "P2104": "Przepustnica – tryb awaryjny",
+    "P2105": "Przepustnica – wyłączenie silnika",
+    "P2106": "Przepustnica – ograniczenie mocy",
+    "P2107": "Przepustnica – błąd procesora",
+    "P2108": "Przepustnica – błąd sterownika",
+
+    "P2110": "Przepustnica – ograniczenie obrotów",
+    "P2111": "Przepustnica – zablokowana w pozycji otwartej",
+    "P2112": "Przepustnica – zablokowana w pozycji zamkniętej",
+
+    "P2187": "Zbyt uboga mieszanka na biegu jałowym",
+    "P2188": "Zbyt bogata mieszanka na biegu jałowym",
+
+    "P2195": "Sonda lambda – sygnał zablokowany na ubogiej mieszance",
+    "P2196": "Sonda lambda – sygnał zablokowany na bogatej mieszance",
+    "P2197": "Sonda lambda – brak zmiany sygnału",
+    "P2198": "Sonda lambda – niewłaściwa odpowiedź",
+
+  "P2500": "Napięcie ładowania – niski sygnał",
+  "P2501": "Napięcie ładowania – wysoki sygnał",
+  "P2502": "Układ ładowania – błąd",
+  "P2503": "Akumulator – niski poziom napięcia",
+  "P2504": "Akumulator – wysoki poziom napięcia",
+
+    "P2510": "PCM – błąd zasilania sterownika",
+    "P2511": "PCM – nieprawidłowy sygnał zasilania",
+    "P2512": "PCM – błąd obwodu zapłonu",
+    "P2513": "PCM – niski sygnał zapłonu",
+    "P2514": "PCM – wysoki sygnał zapłonu",
+
+    "P2600": "Pompa chłodziwa – błąd obwodu",
+    "P2601": "Pompa chłodziwa – zakres/wydajność",
+    "P2602": "Pompa chłodziwa – niski sygnał",
+    "P2603": "Pompa chłodziwa – wysoki sygnał",
+
+    "P2610": "PCM – błąd wewnętrznego timera",
+    "P2611": "PCM – nieprawidłowy czas pracy",
+    "P2612": "PCM – błąd obwodu czujnika czasu",
+    "P2613": "PCM – nieprawidłowy sygnał czujnika czasu",
+
+    "P2620": "Sonda lambda – błąd obwodu pompy prądowej",
+    "P2621": "Sonda lambda – niski sygnał pompy prądowej",
+    "P2622": "Sonda lambda – wysoki sygnał pompy prądowej",
+    "P2623": "Sonda lambda – niewłaściwa odpowiedź pompy prądowej",
+    "P2624": "Sonda lambda – błąd sterowania prądem",
+    "P2625": "Sonda lambda – niski sygnał sterowania prądem",
+    "P2626": "Sonda lambda – wysoki sygnał sterowania prądem",
+
+    "P2630": "Układ paliwowy – błąd obwodu pompy",
+    "P2631": "Układ paliwowy – niski sygnał pompy",
+    "P2632": "Układ paliwowy – wysoki sygnał pompy",
+    "P2633": "Układ paliwowy – niewłaściwa odpowiedź pompy",
+
+    "P2640": "Układ sterowania zaworami – błąd obwodu",
+    "P2641": "Układ sterowania zaworami – niski sygnał",
+    "P2642": "Układ sterowania zaworami – wysoki sygnał",
+    "P2643": "Układ sterowania zaworami – niewłaściwa odpowiedź",
+    "P2644": "Układ sterowania zaworami – błąd zakresu",
+    "P2645": "Układ sterowania zaworami – niski sygnał sterowania",
+    "P2646": "Układ sterowania zaworami – wysoki sygnał sterowania",
+    "P2647": "Układ sterowania zaworami – zablokowany",
+
+    "P2700": "Skrzynia biegów – błąd ogólny",
+    "P2701": "Skrzynia biegów – niski sygnał ciśnienia",
+    "P2702": "Skrzynia biegów – wysoki sygnał ciśnienia",
+    "P2703": "Skrzynia biegów – niewłaściwe ciśnienie",
+    "P2704": "Skrzynia biegów – błąd sterowania ciśnieniem",
+
+    "P2710": "Zawór sterujący ciśnieniem – błąd obwodu",
+    "P2711": "Zawór sterujący ciśnieniem – niewłaściwa pozycja",
+    "P2712": "Zawór sterujący ciśnieniem – niski sygnał",
+    "P2713": "Zawór sterujący ciśnieniem – wysoki sygnał",
+
+    "P3000": "Układ hybrydowy – błąd ogólny (Mazda/Ford HEV)",
+    "P3001": "Układ hybrydowy – błąd komunikacji",
+    "P3002": "Układ hybrydowy – błąd sterownika",
+    "P3003": "Układ hybrydowy – błąd baterii trakcyjnej",
+
+    "P3100": "Układ paliwowy – błąd ogólny",
+    "P3101": "Układ paliwowy – niewłaściwe ciśnienie",
+    "P3102": "Układ paliwowy – niski sygnał ciśnienia",
+    "P3103": "Układ paliwowy – wysoki sygnał ciśnienia",
+
+    "P3200": "Układ zapłonowy – błąd ogólny",
+    "P3201": "Układ zapłonowy – niewłaściwy sygnał",
+    "P3202": "Układ zapłonowy – niski sygnał",
+    "P3203": "Układ zapłonowy – wysoki sygnał",
+
+    "P3400": "Układ dezaktywacji cylindrów – błąd ogólny",
+    "P3401": "Cylinder 1 – dezaktywacja niewłaściwa",
+    "P3402": "Cylinder 2 – dezaktywacja niewłaściwa",
+    "P3403": "Cylinder 3 – dezaktywacja niewłaściwa",
+    "P3404": "Cylinder 4 – dezaktywacja niewłaściwa",
+
+    "P3600": "Układ zapłonowy – błąd sterownika",
+    "P3601": "Układ zapłonowy – niewłaściwy sygnał sterownika",
+    "P3602": "Układ zapłonowy – niski sygnał sterownika",
+    "P3603": "Układ zapłonowy – wysoki sygnał sterownika",
+
+    "P3700": "PCM – błąd wewnętrzny sterownika",
+    "P3701": "PCM – błąd magistrali danych",
+    "P3702": "PCM – błąd komunikacji CAN",
+    "P3703": "PCM – błąd synchronizacji sygnałów",
+  
+    "P5300": "Układ ciśnienia oleju – błąd ogólny",
+    "P5301": "Ciśnienie oleju – niski sygnał",
+    "P5302": "Ciśnienie oleju – wysoki sygnał",
+    "P5303": "Ciśnienie oleju – niewłaściwy sygnał",
+
+    "P5400": "Układ temperatury paliwa – błąd ogólny",
+    "P5401": "Temperatura paliwa – niski sygnał",
+    "P5402": "Temperatura paliwa – wysoki sygnał",
+    "P5403": "Temperatura paliwa – niewłaściwy sygnał",
+
+    "P5500": "Układ ciśnienia doładowania – błąd ogólny",
+    "P5501": "Doładowanie – niski sygnał",
+    "P5502": "Doładowanie – wysoki sygnał",
+    "P5503": "Doładowanie – niewłaściwy sygnał",
+    "P5504": "Doładowanie – nieszczelność układu",
+
+    "P5600": "Układ napięcia – błąd ogólny",
+    "P5601": "Napięcie systemowe – niski sygnał",
+    "P5602": "Napięcie systemowe – wysoki sygnał",
+    "P5603": "Napięcie systemowe – niewłaściwy sygnał",
+
+    "P5700": "Układ paliwowy – błąd ogólny",
+    "P5701": "Układ paliwowy – niski sygnał",
+    "P5702": "Układ paliwowy – wysoki sygnał",
+    "P5703": "Układ paliwowy – niewłaściwy sygnał",
+
+    "P5800": "Układ powietrza dolotowego – błąd ogólny",
+    "P5801": "Dolot – niski sygnał",
+    "P5802": "Dolot – wysoki sygnał",
+    "P5803": "Dolot – niewłaściwy sygnał",
+
+    "P5900": "Układ sterowania silnikiem – błąd ogólny",
+    "P5901": "Sterowanie silnikiem – niski sygnał",
+    "P5902": "Sterowanie silnikiem – wysoki sygnał",
+    "P5903": "Sterowanie silnikiem – niewłaściwy sygnał",
+
+    "P6000": "PCM – błąd ogólny sterownika",
+    "P6001": "PCM – błąd komunikacji",
+    "P6002": "PCM – błąd magistrali CAN",
+    "P6003": "PCM – błąd synchronizacji",
+    "P6004": "PCM – błąd wewnętrzny",
+    "P6005": "PCM – błąd pamięci",
+    "P6006": "PCM – błąd procesora",
+
+    "P6100": "Układ immobilizera – błąd ogólny",
+    "P6101": "Immobilizer – brak autoryzacji",
+    "P6102": "Immobilizer – niski sygnał",
+    "P6103": "Immobilizer – wysoki sygnał",
+    "P6104": "Immobilizer – brak komunikacji",
+
+    "P6200": "Układ alternatora – błąd ogólny",
+    "P6201": "Alternator – niski sygnał",
+    "P6202": "Alternator – wysoki sygnał",
+    "P6203": "Alternator – niewłaściwy sygnał",
+
+    "P6300": "Układ skrzyni biegów – błąd ogólny",
+    "P6301": "Skrzynia – niski sygnał",
+    "P6302": "Skrzynia – wysoki sygnał",
+    "P6303": "Skrzynia – niewłaściwy sygnał",
+
+    "P6400": "Układ sterowania przepustnicą – błąd ogólny",
+    "P6401": "Sterowanie przepustnicą – niski sygnał",
+    "P6402": "Sterowanie przepustnicą – wysoki sygnał",
+    "P6403": "Sterowanie przepustnicą – niewłaściwy sygnał",
+
+    "P6500": "Układ świec żarowych – błąd ogólny",
+    "P6501": "Świece żarowe – niski sygnał",
+    "P6502": "Świece żarowe – wysoki sygnał",
+    "P6503": "Świece żarowe – niewłaściwy sygnał",
+
+    "P6600": "Układ sterowania paliwem – błąd ogólny",
+    "P6601": "Sterowanie paliwem – niski sygnał",
+    "P6602": "Sterowanie paliwem – wysoki sygnał",
+  "P6603": "Sterowanie paliwem – niewłaściwy sygnał",
+  
+    "P6700": "Układ sterowania powietrzem – błąd ogólny",
+    "P6701": "Sterowanie powietrzem – niski sygnał",
+    "P6702": "Sterowanie powietrzem – wysoki sygnał",
+    "P6703": "Sterowanie powietrzem – niewłaściwy sygnał",
+
+    "P6800": "Układ świec żarowych – błąd ogólny (Diesel)",
+    "P6801": "Świece żarowe – niski sygnał",
+    "P6802": "Świece żarowe – wysoki sygnał",
+    "P6803": "Świece żarowe – niewłaściwy sygnał",
+
+    "P6900": "Układ sterowania paliwem – błąd ogólny",
+    "P6901": "Sterowanie paliwem – niski sygnał",
+    "P6902": "Sterowanie paliwem – wysoki sygnał",
+    "P6903": "Sterowanie paliwem – niewłaściwy sygnał",
+
+    "P7000": "Układ skrzyni biegów – błąd ogólny",
+    "P7001": "Skrzynia – niski sygnał",
+    "P7002": "Skrzynia – wysoki sygnał",
+    "P7003": "Skrzynia – niewłaściwy sygnał",
+
+    "P7100": "Układ ciśnienia oleju – błąd ogólny",
+    "P7101": "Ciśnienie oleju – niski sygnał",
+    "P7102": "Ciśnienie oleju – wysoki sygnał",
+    "P7103": "Ciśnienie oleju – niewłaściwy sygnał",
+
+    "P7200": "Układ temperatury oleju – błąd ogólny",
+    "P7201": "Temperatura oleju – niski sygnał",
+    "P7202": "Temperatura oleju – wysoki sygnał",
+    "P7203": "Temperatura oleju – niewłaściwy sygnał",
+
+    "P7300": "Układ sterowania silnikiem – błąd ogólny",
+    "P7301": "Sterowanie silnikiem – niski sygnał",
+    "P7302": "Sterowanie silnikiem – wysoki sygnał",
+    "P7303": "Sterowanie silnikiem – niewłaściwy sygnał",
+
+    "P7400": "Układ sterowania przepustnicą – błąd ogólny",
+    "P7401": "Sterowanie przepustnicą – niski sygnał",
+    "P7402": "Sterowanie przepustnicą – wysoki sygnał",
+    "P7403": "Sterowanie przepustnicą – niewłaściwy sygnał",
+
+    "P7500": "Układ sterowania paliwem – błąd ogólny",
+    "P7501": "Sterowanie paliwem – niski sygnał",
+    "P7502": "Sterowanie paliwem – wysoki sygnał",
+    "P7503": "Sterowanie paliwem – niewłaściwy sygnał",
+
+    "P7600": "Układ sterowania powietrzem – błąd ogólny",
+    "P7601": "Sterowanie powietrzem – niski sygnał",
+    "P7602": "Sterowanie powietrzem – wysoki sygnał",
+    "P7603": "Sterowanie powietrzem – niewłaściwy sygnał",
+
+    "P7700": "Układ sterowania ciśnieniem – błąd ogólny",
+    "P7701": "Ciśnienie – niski sygnał",
+    "P7702": "Ciśnienie – wysoki sygnał",
+    "P7703": "Ciśnienie – niewłaściwy sygnał",
+
+    "P7800": "Układ sterowania temperaturą – błąd ogólny",
+    "P7801": "Temperatura – niski sygnał",
+    "P7802": "Temperatura – wysoki sygnał",
+    "P7803": "Temperatura – niewłaściwy sygnał",
+
+    "P7900": "Układ sterowania zapłonem – błąd ogólny",
+    "P7901": "Zapłon – niski sygnał",
+    "P7902": "Zapłon – wysoki sygnał",
+    "P7903": "Zapłon – niewłaściwy sygnał",
+ 
+
+  "P8000": "Układ sterowania paliwem – błąd ogólny",
+  "P8001": "Sterowanie paliwem – niski sygnał",
+  "P8002": "Sterowanie paliwem – wysoki sygnał",
+  "P8003": "Sterowanie paliwem – niewłaściwy sygnał",
+
+  "P8100": "Układ sterowania powietrzem – błąd ogólny",
+  "P8101": "Sterowanie powietrzem – niski sygnał",
+  "P8102": "Sterowanie powietrzem – wysoki sygnał",
+  "P8103": "Sterowanie powietrzem – niewłaściwy sygnał",
+
+  "P8200": "Układ sterowania ciśnieniem – błąd ogólny",
+  "P8201": "Ciśnienie – niski sygnał",
+  "P8202": "Ciśnienie – wysoki sygnał",
+  "P8203": "Ciśnienie – niewłaściwy sygnał",
+
+  "P8300": "Układ sterowania temperaturą – błąd ogólny",
+  "P8301": "Temperatura – niski sygnał",
+  "P8302": "Temperatura – wysoki sygnał",
+  "P8303": "Temperatura – niewłaściwy sygnał",
+
+  "P8400": "Układ sterowania zapłonem – błąd ogólny",
+  "P8401": "Zapłon – niski sygnał",
+  "P8402": "Zapłon – wysoki sygnał",
+  "P8403": "Zapłon – niewłaściwy sygnał",
+
+  "P8500": "Układ sterowania silnikiem – błąd ogólny",
+  "P8501": "Sterowanie silnikiem – niski sygnał",
+  "P8502": "Sterowanie silnikiem – wysoki sygnał",
+  "P8503": "Sterowanie silnikiem – niewłaściwy sygnał",
+
+  "P8600": "Układ sterowania przepustnicą – błąd ogólny",
+  "P8601": "Sterowanie przepustnicą – niski sygnał",
+  "P8602": "Sterowanie przepustnicą – wysoki sygnał",
+  "P8603": "Sterowanie przepustnicą – niewłaściwy sygnał",
+
+  "P8700": "Układ sterowania paliwem – błąd ogólny",
+  "P8701": "Sterowanie paliwem – niski sygnał",
+  "P8702": "Sterowanie paliwem – wysoki sygnał",
+  "P8703": "Sterowanie paliwem – niewłaściwy sygnał",
+
+  "P8800": "Układ sterowania powietrzem – błąd ogólny",
+  "P8801": "Sterowanie powietrzem – niski sygnał",
+  "P8802": "Sterowanie powietrzem – wysoki sygnał",
+  "P8803": "Sterowanie powietrzem – niewłaściwy sygnał",
+
+  "P8900": "Układ sterowania ciśnieniem – błąd ogólny",
+  "P8901": "Ciśnienie – niski sygnał",
+  "P8902": "Ciśnienie – wysoki sygnał",
+  "P8903": "Ciśnienie – niewłaściwy sygnał",
+
+  "P9000": "Układ sterowania temperaturą – błąd ogólny",
+  "P9001": "Temperatura – niski sygnał",
+  "P9002": "Temperatura – wysoki sygnał",
+  "P9003": "Temperatura – niewłaściwy sygnał",
+
+  "P9100": "Układ sterowania zapłonem – błąd ogólny",
+  "P9101": "Zapłon – niski sygnał",
+  "P9102": "Zapłon – wysoki sygnał",
+  "P9103": "Zapłon – niewłaściwy sygnał"
+}
+
+
+

@@ -1,0 +1,69 @@
+<UserControl x:Class="mazda_5.Views.Modules.ModuleDetail_PCM"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="White">
+
+    <StackPanel Margin="20">
+
+        <TextBlock Text="PCM – Moduł sterujący silnika"
+                   FontSize="26" 
+                   TextAlignment="Center"
+                   FontWeight="Bold"
+                   Margin="0 0 0 20"/>
+
+        <Button Content="Identyfikacja ECU (F190)"
+                Height="40"
+                Width="250" 
+                Margin="0 0 0 10"
+                Click="ReadInfo_Click"/>
+
+        <Button Content="Parametry silnika"
+                Height="40" 
+                Width="250" 
+                Margin="0 0 0 10"
+                Click="ReadParams_Click"/>
+
+        <Button Content="Test wentylatora"
+                Height="40" 
+                Width="250" 
+                Margin="0 0 0 10"
+                Click="FanTest_Click"/>
+
+        <Button Content="Test przepustnicy"
+                Height="40" 
+                Width="250" 
+                Margin="0 0 0 10"
+                Click="ThrottleTest_Click"/>
+
+        <TextBlock Text="Konfiguracja PCM" 
+                   FontSize="20" 
+                   TextAlignment="Center"
+                   Margin="0 20 0 10"/>
+
+        <StackPanel Orientation="Horizontal">
+            <TextBox x:Name="DidBox" 
+                     Width="120"
+                     Height="30"
+                     Text="DID"
+                     FontSize="16"
+                     TextAlignment="Center"
+                     Margin="0 0 10 0"/>
+            
+            <TextBox x:Name="ValueBox" 
+                     Width="120" 
+                     Height="30" 
+                     Text="Value"
+                     FontSize="16"
+                     TextAlignment="Center"
+                     Margin="0 0 10 0"/>
+            
+            <Button Content="Zapisz" 
+                    Width="120" 
+                    Height="30" 
+                    Click="WriteConfig_Click"/>
+        </StackPanel>
+
+        <TextBlock x:Name="Output" FontSize="16" Margin="0 20 0 0"/>
+
+    </StackPanel>
+</UserControl>

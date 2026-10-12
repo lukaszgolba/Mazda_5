@@ -1,0 +1,25 @@
+{
+  "C0035": "Czujnik prędkości koła – LF",
+  "C0036": "Czujnik prędkości koła – RF",
+  "C0037": "Czujnik prędkości koła – LR",
+  "C0038": "Czujnik prędkości koła – RR",
+
+  "C0040": "Czujnik prędkości koła – niewłaściwy sygnał",
+  "C0045": "Czujnik prędkości koła – brak sygnału",
+
+  "C0050": "Moduł ABS – błąd wewnętrzny",
+  "C0060": "Zawór ABS – błąd obwodu",
+  "C0065": "Pompa ABS – błąd obwodu",
+
+  "C0070": "Czujnik ciśnienia hamulców – błąd obwodu",
+  "C0071": "Czujnik ciśnienia – niewłaściwy sygnał",
+
+  "C0110": "Pompa ABS – błąd mechaniczny",
+  "C0121": "Zawór ABS – niewłaściwa odpowiedź",
+
+  "C1234": "Czujnik prędkości koła – sygnał niestabilny",
+  "C1235": "Czujnik prędkości koła – brak komunikacji",
+
+  "C1288": "Czujnik ciśnienia – błąd (Mazda/Ford)",
+  "C1300": "Moduł ABS – błąd wewnętrzny"
+}

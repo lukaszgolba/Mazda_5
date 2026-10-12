@@ -1,0 +1,15 @@
+{
+  "U0001": "Magistrala CAN – błąd ogólny",
+  "U0002": "CAN – niski sygnał",
+  "U0003": "CAN – wysoki sygnał",
+
+  "U0100": "Brak komunikacji z PCM",
+  "U0121": "Brak komunikacji z ABS",
+  "U0155": "Brak komunikacji z IPC",
+  "U0140": "Brak komunikacji z BCM",
+  "U0170": "Brak komunikacji z SRS",
+
+  "U0401": "Nieprawidłowe dane z PCM",
+  "U0415": "Nieprawidłowe dane z ABS",
+  "U0422": "Nieprawidłowe dane z BCM"
+}

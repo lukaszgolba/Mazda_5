@@ -1,0 +1,12 @@
+{
+  "B2900": "IPC – błąd konfiguracji",
+  "B2901": "IPC – błąd komunikacji",
+
+  "U0155": "Brak komunikacji z IPC",
+  "U0160": "IPC – błąd magistrali CAN",
+
+  "B2990": "Wskaźnik paliwa – błąd obwodu",
+  "B2991": "Wskaźnik temperatury – błąd obwodu",
+
+  "B2992": "Podświetlenie zegarów – błąd obwodu"
+}

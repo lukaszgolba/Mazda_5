@@ -1,0 +1,20 @@
+{
+  "B1000": "BCM – błąd wewnętrzny",
+  "B1001": "BCM – błąd pamięci",
+
+  "B1200": "Czujnik drzwi kierowcy – błąd",
+  "B1201": "Czujnik drzwi pasażera – błąd",
+  "B1202": "Czujnik drzwi tylnych – błąd",
+
+  "B1230": "Czujnik maski – błąd",
+  "B1231": "Czujnik klapy – błąd",
+
+  "B1342": "BCM – błąd konfiguracji",
+  "B1352": "Stacyjka – niewłaściwy sygnał",
+
+  "B2100": "Zamek centralny – błąd obwodu",
+  "B2101": "Zamek centralny – niewłaściwa odpowiedź",
+
+  "B2500": "Oświetlenie wnętrza – błąd obwodu",
+  "B2501": "Oświetlenie – niewłaściwy sygnał"
+}
